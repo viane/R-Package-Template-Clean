@@ -9,7 +9,7 @@
 #' init(FALSE)
 init <- function(greeting=TRUE){
   if(greeting){
-    print("Hello World")
+    print("Hello World from Allen")
   }else{
     print("Slience")
   }
