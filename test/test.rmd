@@ -1,0 +1,14 @@
+---
+title: "test"
+author: "Xiaoyu Zhou"
+date: "1/26/2018"
+output: html_document
+---
+
+```{r pressure, echo=FALSE}
+library("devtools")
+install_github('viane/R-Package-Template-Clean',force = TRUE)
+library("myPackage")
+
+myPackage::init()
+```
